@@ -1,4 +1,4 @@
-# Python Script to create invoices
+# Flask endpoint that implement the standar L402 
 
 This repository contains a python flask server that use the standar L402
 to return premium content
@@ -104,7 +104,3 @@ Authorization=L402 token:<preimage>
 ```
 
 And now you can access premium content.
-
-
-
-
