@@ -65,6 +65,12 @@ pip install -r requirements.txt
 
 ### Environment Variables
 
+To test the project i suggest that you use [Polar](https://lightningpolar.com/) tool to create a lightning regtest network with two LND nodes.
+Then you select one node and  must copy files tls.cert,invoices.macaroon y admin.macaroon to credentials folder.
+
+![info_connect_node](https://hackmd.io/_uploads/B12EJ1AyC.png)
+
+
 You must create a file .env and to add the following environment variables to customize the connection to the database:
 
 ```bash=
